@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Coffee</title>
+    <meta name="description"
+        content="The uniqueness of the cafe is determined by three elements: beautiful interiors, extraordinary people and great coffee. At Mr. Coffee, everyone will find something for themselves.">
+    <meta name="keywords" content="Mr.Coffee, coffee, coffeehouse, Paris, tasty coffee">
+    <meta name="author" content="Magdalena Radecka">
+    <link rel="stylesheet" href="application.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- W zwiazku z tym, ze font AvenirNext znalazlam jedynie platny (95$), zdecydowałam się na uzycie fontu Montserrat, ktory jest
+    do niego bardzo zblizony. -->
+
+    <!-- Image Preloading -->
+    <link rel="preload" as="image" href="assets/full_logo_white.png">
+    <link rel="preload" as="image" href="assets/mr_coffee_salle.jpg">
+    <link rel="preload" as="image" href="assets/logo_mrcoffee.png">
+    <link rel="preload" as="image" href="assets/icon_café.png">
+    <link rel="preload" as="image" href="assets/icon_gens.png">
+    <link rel="preload" as="image" href="assets/icon_histoires.png">
+    <link rel="preload" as="image" href="assets/icon_open.png">
+    <link rel="preload" as="image" href="assets/logo_blanc.png">
+    <link rel="preload" as="image" href="assets/logo_linkedin.png">
+    <link rel="preload" as="image" href="assets/logo_twitter.png">
+    <link rel="preload" as="image" href="assets/logo_facebook.png">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <figure>
+            <img src="assets/full_logo_white.png" class="logo__signature" alt="full logo Mr.Coffee" loading="lazy">
+        </figure>
+
+        <nav class="navigation-menu">
+            <ul class="navigation-menu__list">
+                <li class="navigation-menu__item"><a href="index.html" class="navigation-menu__link">Accueil</a>
+                </li>
+                <li class="navigation-menu__item"><a href="about.html" class="navigation-menu__link"> Qui
+                        sommes-nous?</a></li>
+                <li class="navigation-menu__item"><a href="contact.html" class="navigation-menu__link">Nous
+                        contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="container">
+        <section class="intro">
+            <img class="intro__image" src="assets/logo_mrcoffee.png" alt="full logo Mr.Coffee" loading="lazy">
+        </section>
+
+        <section class="banner">
+            <img class="banner__image" src="assets/mr_coffee_salle.jpg" alt="coffeehouse" loading="lazy">
+            <h1 class="banner__title">DÉCOUVREZ NOTRE CAFÉ PHILO</h1>
+        </section>
+
+        <section class="description">
+            <h2 class="description__title title__h2">
+                Chez Mr.Coffee,
+            </h2>
+            <h2 class="description__title title__h2">
+                nous aimons trois choses
+            </h2>
+
+
+            <div class="description__cards-wrapper">
+                <div class="description__card">
+                    <img class="description__card-icon" src="assets/icon_café.png" alt="Coffee icon" loading="lazy">
+                    <h4 class="description__card-title">Le bon café</h4>
+                    <p class="description__card-content">
+                        Nos priorités : la qualité et le goût. Tous nos cafés sont soigneusements séléctionnés en accord
+                        avec
+                        nos valeurs de respect de la nature et des hommes.
+                    </p>
+                </div>
+
+                <div class="description__card">
+                    <img class="description__card-icon" src="assets/icon_gens.png" alt="Coffee icon" loading="lazy">
+                    <h4 class="description__card-title">Les gens</h4>
+                    <p class="description__card-content">
+                        Nous sommes de ceux qui pensent qu’ensemble, nous allons plus loin. C’est pourquoi chez
+                        Mr.Coffee,
+                        notre mission est de rassembler les gens en leur offrant un lieu de liberté et de partages.
+                    </p>
+                </div>
+
+                <div class="description__card">
+                    <img class="description__card-icon" src="assets/icon_histoires.png" alt="Coffee icon"
+                        loading="lazy">
+                    <h4 class="description__card-title">Les histoires</h4>
+                    <p class="description__card-content">
+                        Chez Mr.Coffee, que vous soyez
+                        poête, fantasque ou philosophe, nous
+                        vous offrons un lieu pour parler de
+                        vos histoires, ou pour les écrire.</p>
+                </div>
+            </div>
+
+            <div class="description__more">
+                <a href="about.html" class="description__more-link">En savoir plus</a>
+            </div>
+        </section>
+
+        <section class="work-hours">
+            <h2 class="work-hours__title title__h2">
+                Découvrez notre progamme
+            </h2>
+
+            <div class="work-hours__sub-title">
+                <figure class="work-hours__sub-title-image-wrapper">
+                    <img class="work-hours__sub-title-image" src="assets/icon_open.png" alt="pic open" loading="lazy">
+                </figure>
+                <p>
+                    Votre café vous accueille 7j/7 :
+                </p>
+            </div>
+
+            <div class="work-hours__column-wrapper">
+                <div class="work-hours__column">
+                    <p class="work-hours__column-title">
+                        Tous les mardis,
+                    </p>
+                    <p class="work-hours__column-title">
+                        retrouvez <strong>les cafés poésies :</strong>
+                    </p>
+
+                    <p class="work-hours__column-title-bottom">
+                        <strong>Venez écouter ou lire vos plus beaux</strong>
+                        <strong>poèmes : Mr.Coffee offre une</strong>
+                        <strong>consommation à tous les courageux !</strong>
+                    </p>
+                </div>
+
+                <div class="work-hours__column">
+                    <p class="work-hours__column-title">
+                        Tous les jeudis,
+                    </p>
+                    <p class="work-hours__column-title">
+                        retrouvez <strong>les cafés philo et débat :</strong>
+                    </p>
+                    <p class="work-hours__column-title-bottom">
+                        <strong>Autour d’un thème philosophique ou de</strong>
+                        <strong>société, venez débattre entre experts ou</strong>
+                        <strong>simple curieux.</strong>
+                    </p>
+                </div>
+            </div>
+
+            <p class="work-hours__extra-content">
+                Sans oublier nos ateliers d’écritures et évènements excéptionnels !
+            </p>
+
+            <h3 class="work-hours__contact">
+                Rendez-vous sur notre page Contact pour retrouver toutes les infos pratiques
+            </h3>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <img class="footer__logo" src="assets/logo_blanc.png" alt="logo Mr.Coffee" loading="lazy">
+
+        <div class="footer__content">
+            <p class="footer__text">Suivez nous sur les réseaux sociaux !</p>
+
+            <ul class="footer__social-list">
+                <li>
+                    <a href="#">
+                        <img class="footer__social-image" src="assets/logo_linkedin.png" alt="/logo Linkedin"
+                            loading="lazy">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="footer__social-image" src="assets/logo_twitter.png" alt="/logo Twitter"
+                            loading="lazy">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="footer__social-image" src="assets/logo_facebook.png" alt="/logo Facebook"
+                            loading="lazy">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Coffee</title>
+    <meta name="description"
+        content="The uniqueness of the cafe is determined by three elements: beautiful interiors, extraordinary people and great coffee. At Mr. Coffee, everyone will find something for themselves.">
+    <meta name="keywords" content="Mr.Coffee, coffee, coffeehouse, Paris, tasty coffee">
+    <meta name="author" content="Magdalena Radecka">
+    <link rel="stylesheet" href="application.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- W zwiazku z tym, ze font AvenirNext znalazlam jedynie platny (95$), zdecydowałam się na uzycie fontu Montserrat, ktory jest
+    do niego bardzo zblizony. -->
+
+    <!-- Image Preloading -->
+    <link rel="preload" as="image" href="assets/full_logo_white.png">
+    <link rel="preload" as="image" href="assets/logo_mrcoffee.png">
+    <link rel="preload" as="image" href="assets/logo_blanc.png">
+    <link rel="preload" as="image" href="assets/logo_linkedin.png">
+    <link rel="preload" as="image" href="assets/logo_twitter.png">
+    <link rel="preload" as="image" href="assets/logo_facebook.png">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <figure>
+            <img src="assets/full_logo_white.png" class="logo__signature" alt="full logo Mr.Coffee" loading="lazy">
+        </figure>
+
+        <nav class="navigation-menu">
+            <ul class="navigation-menu__list">
+                <li class="navigation-menu__item"><a href="index.html" class="navigation-menu__link">Accueil</a>
+                </li>
+                <li class="navigation-menu__item"><a href="about.html" class="navigation-menu__link"> Qui
+                        sommes-nous?</a></li>
+                <li class="navigation-menu__item"><a href="contact.html" class="navigation-menu__link">Nous
+                        contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <img class="intro__image" src="assets/logo_mrcoffee.png" alt="full logo Mr.Coffee" loading="lazy">
+        </section>
+
+        <section class="contact">
+            <h2 class="contact__title">
+                On vous attend !
+            </h2>
+
+            <address class="contact__content-wrapper">
+                <p class="contact__address">
+                    <strong>Mr.Coffee</strong><br>
+                    15 place Jules Guesde<br>
+                    75006 Paris
+                </p>
+
+                <p class="contact__phone">
+                    Tel : <a href="tel:+33946257845" class="contact__link">+33 9 46 25 78 45</a>
+                </p>
+
+                <p class="contact__mail">
+                    Mail : <a href="mailto:contact@mr-coffee.com" class="contact__link">contact@mr-coffee.com</a>
+                </p>
+            </address>
+        </section>
+
+        <section class="map">
+            <iframe class="map__canvas" width="100%"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=15 rue jules guesde 75014&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img class="footer__logo" src="assets/logo_blanc.png" alt="logo Mr.Coffee" loading="lazy">
+
+        <div class="footer__content">
+            <p class="footer__text">Suivez nous sur les réseaux sociaux !</p>
+
+            <ul class="footer__social-list">
+                <li>
+                    <a href="#">
+                        <img class="footer__social-image" src="assets/logo_linkedin.png" alt="/logo Linkedin"
+                            loading="lazy">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="footer__social-image" src="assets/logo_twitter.png" alt="/logo Twitter"
+                            loading="lazy">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="footer__social-image" src="assets/logo_facebook.png" alt="/logo Facebook"
+                            loading="lazy">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
